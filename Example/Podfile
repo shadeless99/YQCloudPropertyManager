@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YQCloudPropertyManager_Example' do
+  pod 'YQCloudPropertyManager', :path => '../'
+
+  target 'YQCloudPropertyManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
