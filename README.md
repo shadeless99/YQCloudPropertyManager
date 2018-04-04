@@ -22,7 +22,7 @@ pod 'YQCloudPropertyManager'
 
 ## Author
 
-qianjing123, yongqing3@staff.sina.com.cn
+shadeless99, shadeless@126.com
 
 ## License
 

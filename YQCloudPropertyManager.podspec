@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQCloudPropertyManager'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A manager that allow you to modify ivars of an instance of a class'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shadeless99/YQCloudPropertyManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shadeless99' => 'gyq19900513@126.com' }
+  s.author           = { 'shadeless99' => 'shadeless@126.com' }
   s.source           = { :git => 'https://github.com/shadeless99/YQCloudPropertyManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
