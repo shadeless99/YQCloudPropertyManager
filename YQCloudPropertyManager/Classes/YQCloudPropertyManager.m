@@ -286,18 +286,21 @@ static YQCloudPropertyManager *g_cloudPropertyManager = nil;
     [[YQCloudPropertyManager sharedManager] addLocalProperties:[dict objectForKey:strIdentifier] forIdentifier:strIdentifier];
 }
 
+/** 设置CGFloat值 */
 + (BOOL)yq_setCGFloat:(CGFloat)value forObject:(id<YQCloudPropertyObject>)object name:(NSString *)name {
     BOOL flag = [self setCGFloat:value forObject:object name:name];
     [self savePropertiesForObject:object];
     return flag;
 }
 
+/** 设置bool值 */
 + (BOOL)yq_setBool:(BOOL)value forObject:(id<YQCloudPropertyObject>)object name:(NSString *)name {
     BOOL flag = [self setBool:value forObject:object name:name];
     [self savePropertiesForObject:object];
     return flag;
 }
 
+/** 设置整型值 */
 + (BOOL)yq_setNSInteger:(NSInteger)value forObject:(id<YQCloudPropertyObject>)object name:(NSString *)name {
     BOOL flag = [self setNSInteger:value forObject:object name:name];
     [self savePropertiesForObject:object];
