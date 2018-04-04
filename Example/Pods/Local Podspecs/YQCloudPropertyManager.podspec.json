@@ -1,0 +1,22 @@
+{
+  "name": "YQCloudPropertyManager",
+  "version": "0.0.1",
+  "summary": "A manager that allow you to modify ivars of an instance of a class",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shadeless99/YQCloudPropertyManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shadeless99": "gyq19900513@126.com"
+  },
+  "source": {
+    "git": "https://github.com/shadeless99/YQCloudPropertyManager.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YQCloudPropertyManager/Classes/**/*"
+}

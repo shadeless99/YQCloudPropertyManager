@@ -7,12 +7,18 @@
 //
 
 #import "YQAppDelegate.h"
+#import "YQViewController.h"
 
 @implementation YQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    YQViewController *firstVC = [[YQViewController alloc] init];
+    self.nav = [[UINavigationController alloc] initWithRootViewController:firstVC];
+    self.window = [[UIWindow alloc] init];
+    self.window.rootViewController = self.nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

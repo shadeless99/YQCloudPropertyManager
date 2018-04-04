@@ -1,0 +1,6 @@
+framework module YQCloudPropertyManager {
+  umbrella header "YQCloudPropertyManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
